@@ -370,7 +370,7 @@
       <div class="container footer-container">
       <div class="footer-column">     
       <!--LOGO-->
-      <a class="logo logo-footer" href="./"><span class="logo-blue">Web</span><span class="logo-white">Studio</span></a>
+      <a class="logo-footer" href="./"><span class="logo-blue">Web</span><span class="logo-white">Studio</span></a>
       <!--CONTACTS-->
       <address class="address-footer">
         <ul class="contacts-footer">
@@ -413,6 +413,19 @@
         </li>
       </ul>
     </div>
+    <div class="footer-column">
+      <form action="" class="subscribtion-form-footer">
+        <label for="subscriber-email" class="subscribtion-footer-label">Подпишитесь на рассылку
+          <input type="email" name="subscriber-email" placeholder="E-mail" class="subscribtion-footer-input" />
+        </label>
+        <button type="submit" class="subscribtion-footer-button">
+          Подписаться
+          <svg class="subscribe-footer-icon">
+            <use href="./images/sprite.svg#sendicon"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
     </div>
     </footer>
 <div class="backdrop is-hidden" data-modal>
@@ -422,7 +435,7 @@
         <use href="./images/sprite.svg#closebtn"></use>
       </svg>
     </button>
-  </div>
+  </div> 
 </div>
 <script src="./js/modal.js"></script>
   </body>
