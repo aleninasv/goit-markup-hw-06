@@ -523,7 +523,7 @@ justify-content: center;
   left: 0;
   background-color: rgba(0, 0, 0, 0.2);
   width: 100vw;
-  height: 1024px;  
+  height: 100vh;  
 }
 .modal {
 position: absolute;
@@ -675,7 +675,7 @@ margin-left: 13px;
 }
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
   background-image: url(../images/icon-check.svg);
-  background-size: contain;
+  background-size: cover;
   border: 2px solid var(--accent-color);
 }
 .modal-form-checkbox:focus + .modal-form-checkbox-label::before,
